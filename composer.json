@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/HTML_Compressor",
+    "type": "magento-module",
+    "license": "WTFPL",
+    "homepage": "",
+    "description": "Simple html compressor based on regex",
+    "authors": [
+    {
+        "name": "Razorphyn",
+        "email": "est.grandi@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Razorphyn_HTMLCompressor>
+			<active>true</active>
+			<codePool>local</codePool>
+		</Razorphyn_HTMLCompressor>
+	</modules>
+</config>

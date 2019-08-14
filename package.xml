@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>HTML_Compressor</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.wtfpl.net/">WTFPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Simple html compressor based on regex</summary>
+    <description>Remove unnecessary space usage(white space, empty lines, etc) and leaves pre, textarea, script, style, cdata and IE comments untouched</description>
+    <notes>Initial Relase</notes>
+    <authors><author><name>Razorphyn</name><user>Razorphyn</user><email>est.grandi@gmail.com</email></author></authors>
+    <date>2014-12-17</date>
+    <time>16:32:15</time>
+    <contents><target name="magelib"><dir><dir name="Razorphyn"><file name="html_compressor.php" hash="d7e29983ce7520bc82c221f1848824d1"/></dir></dir></target><target name="magelocal"><dir><dir name="Razorphyn"><dir name="HTMLCompressor"><dir name="Model"><file name="Observer.php" hash="591d43cc8e4a344391cb1349828c6784"/><file name="extime.log" hash="c4fc0905d6fd6884da9f4dd6135adce5"/></dir><dir name="etc"><file name="config.xml" hash="aa5611a7c00cd19f3434c1fefcb63c47"/></dir></dir></dir></dir></target><target name="mageetc"><dir><dir name="modules"><file name="Razorphyn_HTMLCompressor.xml" hash="372046018f3123d810bfb2d4590388b0"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

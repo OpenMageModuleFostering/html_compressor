@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>HTML_Compressor</name>
-    <version>0.1.4</version>
+    <version>0.1.5</version>
     <stability>stable</stability>
     <license uri="http://www.wtfpl.net/">WTFPL</license>
     <channel>community</channel>
@@ -24,11 +24,11 @@ Pre&#xD;
  CDATA&#xD;
 IE conditionals comments&#xD;
 </description>
-    <notes>Bug fix</notes>
+    <notes>Improvements and bug fix</notes>
     <authors><author><name>Razorphyn</name><user>Razorphyn</user><email>est.grandi@gmail.com</email></author></authors>
-    <date>2014-12-21</date>
-    <time>19:48:09</time>
-    <contents><target name="mageetc"><dir><dir name="modules"><file name="Razorphyn_HTMLCompressor.xml" hash="85359f1f2fa391942e0618e4edbbcbf4"/></dir></dir></target><target name="magelocal"><dir name="Razorphyn"><dir name="HTMLCompressor"><dir name="Model"><file name="Observer.php" hash="6700e05d80628ce18fe48ac68eb191e1"/></dir><dir name="etc"><file name="config.xml" hash="dfeef644720af3338fcba106a0a5529b"/></dir></dir></dir></target><target name="magelib"><dir><dir name="Razorphyn"><dir name="HTMLCompressor"><file name="HTML.php" hash="48560b34ff1996fab02daf46569bd3de"/><file name="html_compressor.php" hash="1337fc541424fda8f28a52d0b6ca3a83"/></dir></dir></dir></target></contents>
+    <date>2014-12-24</date>
+    <time>10:36:29</time>
+    <contents><target name="mageetc"><dir><dir name="modules"><file name="Razorphyn_HTMLCompressor.xml" hash="85359f1f2fa391942e0618e4edbbcbf4"/></dir></dir></target><target name="magelocal"><dir name="Razorphyn"><dir name="HTMLCompressor"><dir name="Model"><file name="Observer.php" hash="a7da1dc65ae3fb439237d08af23f6ded"/></dir><dir name="etc"><file name="config.xml" hash="dfeef644720af3338fcba106a0a5529b"/></dir></dir></dir></target><target name="magelib"><dir><dir name="Razorphyn"><dir name="HTMLCompressor"><file name="html_compressor.php" hash="b38f85caed56963fc08015c2168b1908"/></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.3.0</min><max>6.0.0</max></php></required></dependencies>
 </package>

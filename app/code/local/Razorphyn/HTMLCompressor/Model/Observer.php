@@ -12,8 +12,8 @@
 		public function alterOutput($observer)
 		{
 			$lib_path = Mage::getBaseDir('lib').'/Razorphyn/HTMLCompressor/html_compressor.php';
-			
-			include_once($lib_path);
+			//$lib_path = Mage::getBaseDir('lib').'/Razorphyn/HTMLCompressor/HTML.php';
+			require_once($lib_path);
 
 			//Retrieve html body
 			$response = $observer->getResponse();       
@@ -21,6 +21,7 @@
 			
 			//Compress HTML
 			$html=html_compress($html);
+			//$html=Minify_HTML::minify($html);
 			
 			//Send Response
 			$response->setBody($html);

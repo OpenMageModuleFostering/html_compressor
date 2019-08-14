@@ -3,7 +3,7 @@
     "type": "magento-module",
     "license": "WTFPL",
     "homepage": "",
-    "description": "Simple html compressor based on regex",
+    "description": "Simple regex based HTML Compressor",
     "authors": [
     {
         "name": "Razorphyn",

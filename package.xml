@@ -1,18 +1,34 @@
 <?xml version="1.0"?>
 <package>
     <name>HTML_Compressor</name>
-    <version>0.1.2</version>
+    <version>0.1.3</version>
     <stability>stable</stability>
     <license uri="http://www.wtfpl.net/">WTFPL</license>
     <channel>community</channel>
     <extends/>
-    <summary>Simple html compressor based on regex</summary>
-    <description>Remove unnecessary space usage(white space, empty lines, etc) and leaves pre, textarea, script, style, cdata and IE comments untouched</description>
-    <notes>Regex Improvements</notes>
+    <summary>Simple regex based HTML Compressor</summary>
+    <description>Simple regex based html compressor to reduce the html page size&#xD;
+&#xD;
+It removes the following elements:&#xD;
+   multiple white spaces&#xD;
+   empty common attributes&#xD;
+   empty lines&#xD;
+   HTML comments&#xD;
+&#xD;
+&#xD;
+&lt;p&gt;and leaves untouched the following tags:&#xD;
+Script&#xD;
+Style&#xD;
+Pre&#xD;
+ Textarea&#xD;
+ CDATA&#xD;
+IE conditionals comments&#xD;
+</description>
+    <notes>Enabled only for frontend</notes>
     <authors><author><name>Razorphyn</name><user>Razorphyn</user><email>est.grandi@gmail.com</email></author></authors>
     <date>2014-12-18</date>
-    <time>18:31:57</time>
-    <contents><target name="magelib"><dir><dir name="Razorphyn"><file name="html_compressor.php" hash="7466780708b5042c56edbdfcc9eb95ab"/></dir></dir></target><target name="magelocal"><dir><dir name="Razorphyn"><dir name="HTMLCompressor"><dir name="Model"><file name="Observer.php" hash="591d43cc8e4a344391cb1349828c6784"/><file name="extime.log" hash="c4fc0905d6fd6884da9f4dd6135adce5"/></dir><dir name="etc"><file name="config.xml" hash="aa5611a7c00cd19f3434c1fefcb63c47"/></dir></dir></dir></dir></target><target name="mageetc"><dir><dir name="modules"><file name="Razorphyn_HTMLCompressor.xml" hash="372046018f3123d810bfb2d4590388b0"/></dir></dir></target></contents>
+    <time>19:16:07</time>
+    <contents><target name="mageetc"><dir><dir name="modules"><file name="Razorphyn_HTMLCompressor.xml" hash="85359f1f2fa391942e0618e4edbbcbf4"/></dir></dir></target><target name="magelocal"><dir name="Razorphyn"><dir name="HTMLCompressor"><dir name="Model"><file name="Observer.php" hash="c8a7658d22159fcbeee8c75443cce021"/></dir><dir name="etc"><file name="config.xml" hash="dfeef644720af3338fcba106a0a5529b"/></dir></dir></dir></target><target name="magelib"><dir><dir name="Razorphyn"><dir name="HTMLCompressor"><file name="html_compressor.php" hash="ff87eacce1a396dc4e1fb6360add9d04"/></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.3.0</min><max>6.0.0</max></php></required></dependencies>
 </package>

@@ -1,4 +1,10 @@
 <?xml version="1.0"?>
+<!--/**
+ * HTML Compressor
+ * Author: Razorphyn
+ * Suport Email: est.garndi@gmail.com
+ * Copyright: WTFPL(http://www.wtfpl.net/)
+**/-->
 <config>
 	<modules>
 		<Razorphyn_HTMLCompressor>

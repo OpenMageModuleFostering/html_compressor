@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/HTML_Compressor",
+    "name": "OpenMageModuleFostering\/HTML_Compressor",
     "type": "magento-module",
     "license": "WTFPL",
     "homepage": "",
     "description": "Simple regex based HTML Compressor",
     "authors": [
-    {
-        "name": "Razorphyn",
-        "email": "est.grandi@gmail.com"
-    }
-],
+        {
+            "name": "Razorphyn",
+            "email": "est.grandi@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
